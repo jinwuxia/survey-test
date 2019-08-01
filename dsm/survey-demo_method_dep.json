@@ -1,0 +1,276 @@
+{
+  "@schemaVersion" : "1.0",
+  "name" : "survey-demo_v2_method_dep",
+  "variables" : [ "controller\\ObservedController.java(controller.ObservedController.ObservedController)", "controller\\ObservedController.java(controller.ObservedController.addAnswerEntry)", "controller\\ObservedController.java(controller.ObservedController.createFinishedSurveyEntry)", "controller\\ObservedController.java(controller.ObservedController.displayFinishedSurveyEntry)", "controller\\ObservedController.java(controller.ObservedController.getObservedControllerInstance)", "controller\\ObservedController.java(controller.ObservedController.modifyUserAnswerEntry)", "controller\\ObserverController.java(controller.ObserverController.ObserverController)", "controller\\ObserverController.java(controller.ObserverController.addQuestionEntry)", "controller\\ObserverController.java(controller.ObserverController.addStandardAnswerEntry)", "controller\\ObserverController.java(controller.ObserverController.createBlankSurveyEntry)", "controller\\ObserverController.java(controller.ObserverController.displayBlankSurveyEntry)", "controller\\ObserverController.java(controller.ObserverController.getObserverControllerInstance)", "controller\\ScoringController.java(controller.ScoringController.ScoringController)", "controller\\ScoringController.java(controller.ScoringController.getScoringControllerInstance)", "datarepo\\Repo.java(datarepo.Repo.Repo)", "datarepo\\Repo.java(datarepo.Repo.addAnswer)", "datarepo\\Repo.java(datarepo.Repo.addQuestion)", "datarepo\\Repo.java(datarepo.Repo.addStandardAnswer)", "datarepo\\Repo.java(datarepo.Repo.createBlankSurvey)", "datarepo\\Repo.java(datarepo.Repo.createFinishedSurvey)", "datarepo\\Repo.java(datarepo.Repo.getAnswerById)", "datarepo\\Repo.java(datarepo.Repo.getBlankSurveyById)", "datarepo\\Repo.java(datarepo.Repo.getBlankSurveyList)", "datarepo\\Repo.java(datarepo.Repo.getFinishedSurveyById)", "datarepo\\Repo.java(datarepo.Repo.getFinishedSurveyList)", "datarepo\\Repo.java(datarepo.Repo.getQuestionById)", "datarepo\\Repo.java(datarepo.Repo.getRepoInstance)", "datarepo\\Repo.java(datarepo.Repo.modifyAnswer)", "datarepo\\Repo.java(datarepo.Repo.modifyQuestion)", "datarepo\\Repo.java(datarepo.Repo.modifyStandardAnswer)", "datarepo\\Repo.java(datarepo.Repo.removeQuestion)", "datarepo\\Repo.java(datarepo.Repo.removeStandardAnswer)", "entity\\BlankSurvey.java(entity.BlankSurvey.BlankSurvey)", "entity\\BlankSurvey.java(entity.BlankSurvey.addOneQuestion)", "entity\\BlankSurvey.java(entity.BlankSurvey.addOneStandardAnswer)", "entity\\BlankSurvey.java(entity.BlankSurvey.getQuestionList)", "entity\\BlankSurvey.java(entity.BlankSurvey.getStandardAnswerList)", "entity\\BlankSurvey.java(entity.BlankSurvey.modifyOneQuestion)", "entity\\BlankSurvey.java(entity.BlankSurvey.modifyOneStandardAnswer)", "entity\\BlankSurvey.java(entity.BlankSurvey.removeOneQuestion)", "entity\\BlankSurvey.java(entity.BlankSurvey.removeOneStandardAnswer)", "entity\\BlankSurvey.java(entity.BlankSurvey.toString)", "entity\\FinishedSurvey.java(entity.FinishedSurvey.FinishedSurvey)", "entity\\FinishedSurvey.java(entity.FinishedSurvey.addAnswer)", "entity\\FinishedSurvey.java(entity.FinishedSurvey.getFinishedAnswerList)", "entity\\FinishedSurvey.java(entity.FinishedSurvey.modifyAnswer)", "entity\\FinishedSurvey.java(entity.FinishedSurvey.toString)", "entity\\Pair.java(entity.Pair.Pair)", "entity\\Pair.java(entity.Pair.equals)", "entity\\Pair.java(entity.Pair.getX)", "entity\\Pair.java(entity.Pair.getY)", "entity\\Pair.java(entity.Pair.setX)", "entity\\Pair.java(entity.Pair.setY)", "entity\\answer\\BaseAnswer.java(entity.answer.BaseAnswer.equals)", "entity\\answer\\BaseAnswer.java(entity.answer.BaseAnswer.toString)", "entity\\answer\\ChoiceAnswer.java(entity.answer.ChoiceAnswer.ChoiceAnswer)", "entity\\answer\\ChoiceAnswer.java(entity.answer.ChoiceAnswer.equals)", "entity\\answer\\ChoiceAnswer.java(entity.answer.ChoiceAnswer.getAns)", "entity\\answer\\ChoiceAnswer.java(entity.answer.ChoiceAnswer.setAns)", "entity\\answer\\ChoiceAnswer.java(entity.answer.ChoiceAnswer.toString)", "entity\\answer\\FillupAnswer.java(entity.answer.FillupAnswer.FillupAnswer)", "entity\\answer\\MatchAnswer.java(entity.answer.MatchAnswer.equals)", "entity\\answer\\MatchAnswer.java(entity.answer.MatchAnswer.getAns)", "entity\\answer\\MatchAnswer.java(entity.answer.MatchAnswer.setAns)", "entity\\answer\\MatchAnswer.java(entity.answer.MatchAnswer.toString)", "entity\\answer\\MtfAnswer.java(entity.answer.MtfAnswer.equals)", "entity\\answer\\MtfAnswer.java(entity.answer.MtfAnswer.getAns)", "entity\\answer\\MtfAnswer.java(entity.answer.MtfAnswer.setAns)", "entity\\answer\\MtfAnswer.java(entity.answer.MtfAnswer.toString)", "entity\\answer\\RankAnswer.java(entity.answer.RankAnswer.equals)", "entity\\answer\\RankAnswer.java(entity.answer.RankAnswer.getAns)", "entity\\answer\\RankAnswer.java(entity.answer.RankAnswer.setAns)", "entity\\answer\\RankAnswer.java(entity.answer.RankAnswer.toString)", "entity\\answer\\ShortEssayAnswer.java(entity.answer.ShortEssayAnswer.ShortEssayAnswer)", "entity\\answer\\SubjectAnswer.java(entity.answer.SubjectAnswer.SubjectAnswer)", "entity\\answer\\SubjectAnswer.java(entity.answer.SubjectAnswer.equals)", "entity\\answer\\SubjectAnswer.java(entity.answer.SubjectAnswer.getText)", "entity\\answer\\SubjectAnswer.java(entity.answer.SubjectAnswer.setText)", "entity\\answer\\SubjectAnswer.java(entity.answer.SubjectAnswer.toString)", "entity\\question\\BaseQuestion.java(entity.question.BaseQuestion.BaseQuestion)", "entity\\question\\BaseQuestion.java(entity.question.BaseQuestion.BaseQuestion)", "entity\\question\\BaseQuestion.java(entity.question.BaseQuestion.getScore)", "entity\\question\\BaseQuestion.java(entity.question.BaseQuestion.getTitle)", "entity\\question\\BaseQuestion.java(entity.question.BaseQuestion.setScore)", "entity\\question\\BaseQuestion.java(entity.question.BaseQuestion.setTitle)", "entity\\question\\BaseQuestion.java(entity.question.BaseQuestion.toString)", "entity\\question\\ChoiceQuestion.java(entity.question.ChoiceQuestion.ChoiceQuestion)", "entity\\question\\ChoiceQuestion.java(entity.question.ChoiceQuestion.toString)", "entity\\question\\FillupQuestion.java(entity.question.FillupQuestion.FillupQuestion)", "entity\\question\\FillupQuestion.java(entity.question.FillupQuestion.toString)", "entity\\question\\MatchQuestion.java(entity.question.MatchQuestion.MatchQuestion)", "entity\\question\\MatchQuestion.java(entity.question.MatchQuestion.addItem)", "entity\\question\\MatchQuestion.java(entity.question.MatchQuestion.modifyItem)", "entity\\question\\MatchQuestion.java(entity.question.MatchQuestion.removeItem)", "entity\\question\\MatchQuestion.java(entity.question.MatchQuestion.setLeftSide)", "entity\\question\\MatchQuestion.java(entity.question.MatchQuestion.setRightSide)", "entity\\question\\MatchQuestion.java(entity.question.MatchQuestion.toString)", "entity\\question\\MtfQuestion.java(entity.question.MtfQuestion.toString)", "entity\\question\\ObjectQuestion.java(entity.question.ObjectQuestion.ObjectQuestion)", "entity\\question\\ObjectQuestion.java(entity.question.ObjectQuestion.ObjectQuestion)", "entity\\question\\ObjectQuestion.java(entity.question.ObjectQuestion.addItem)", "entity\\question\\ObjectQuestion.java(entity.question.ObjectQuestion.getCandidateItems)", "entity\\question\\ObjectQuestion.java(entity.question.ObjectQuestion.modifyItem)", "entity\\question\\ObjectQuestion.java(entity.question.ObjectQuestion.removeItem)", "entity\\question\\ObjectQuestion.java(entity.question.ObjectQuestion.setCandidateItems)", "entity\\question\\ObjectQuestion.java(entity.question.ObjectQuestion.toString)", "entity\\question\\RankQuestion.java(entity.question.RankQuestion.toString)", "entity\\question\\ShortEssayQuestion.java(entity.question.ShortEssayQuestion.ShortEssayQuestion)", "entity\\question\\ShortEssayQuestion.java(entity.question.ShortEssayQuestion.toString)", "entity\\question\\SubjectQuestion.java(entity.question.SubjectQuestion.SubjectQuestion)", "entity\\question\\SubjectQuestion.java(entity.question.SubjectQuestion.SubjectQuestion)", "entity\\question\\SubjectQuestion.java(entity.question.SubjectQuestion.getAnsZone)", "entity\\question\\SubjectQuestion.java(entity.question.SubjectQuestion.toString)", "ui\\CommandUI.java(ui.CommandUI.main)", "ui\\CommandUI.java(ui.CommandUI.printUI)", "util\\StringFormater.java(util.StringFormater.changeStrToList)", "util\\StringFormater.java(util.StringFormater.changeStrToSet)", "util\\StringFormater.java(util.StringFormater.getLeftList)", "util\\StringFormater.java(util.StringFormater.getRightList)" ],
+  "cells" : [ {
+    "src" : 1,
+    "dest" : 15,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 25,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 1,
+    "dest" : 116,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 2,
+    "dest" : 19,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 23,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 3,
+    "dest" : 46,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 20,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 27,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 5,
+    "dest" : 116,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 16,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 115,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 117,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 7,
+    "dest" : 118,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 9,
+    "dest" : 18,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 21,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 10,
+    "dest" : 41,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 46,
+    "dest" : 54,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 48,
+    "dest" : 49,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 48,
+    "dest" : 50,
+    "values" : {
+      "Call" : 2.0
+    }
+  }, {
+    "src" : 56,
+    "dest" : 57,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 61,
+    "dest" : 62,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 65,
+    "dest" : 66,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 69,
+    "dest" : 70,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 75,
+    "dest" : 76,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 87,
+    "dest" : 105,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 89,
+    "dest" : 112,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 90,
+    "dest" : 83,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 90,
+    "dest" : 84,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 90,
+    "dest" : 94,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 90,
+    "dest" : 95,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 96,
+    "dest" : 105,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 97,
+    "dest" : 105,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 105,
+    "dest" : 85,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 106,
+    "dest" : 105,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 108,
+    "dest" : 112,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 112,
+    "dest" : 85,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 113,
+    "dest" : 1,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 113,
+    "dest" : 2,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 113,
+    "dest" : 3,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 113,
+    "dest" : 5,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 113,
+    "dest" : 7,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 113,
+    "dest" : 8,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 113,
+    "dest" : 9,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 113,
+    "dest" : 10,
+    "values" : {
+      "Call" : 1.0
+    }
+  }, {
+    "src" : 113,
+    "dest" : 114,
+    "values" : {
+      "Call" : 1.0
+    }
+  } ]
+}
